@@ -1,0 +1,47 @@
+#calcu {
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#calcu form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#calcu input[type=text]{
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    background-color: black;
+}
+
+#calcu input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#calcu .orange{
+    background-color:rgb(253,149,3) !important;
+      
+
+}
+#calcu .gray{
+    background-color: rgb(51,51,51) !important;
+    
+}
